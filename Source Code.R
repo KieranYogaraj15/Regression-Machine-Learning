@@ -5,8 +5,8 @@ library(glmnet)
 
 
 #Import the Red and White Wine datasets
-red_wine <- read.csv("winequality-red.csv")
-white_wine <- read.csv("winequality-white.csv")
+red_wine <- read.csv("Red Wine.csv")
+white_wine <- read.csv("White Wine.csv")
 
 #Some data exploratory analysis
 hist(red_wine$quality, main="Red Wine Quality Distribution", xlab="Quality")
